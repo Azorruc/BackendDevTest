@@ -51,7 +51,7 @@ public interface ProductMockApi {
     )
     @RequestMapping(
         method = RequestMethod.GET,
-        value = "/product/{productId}/similar",
+        value = "/product/{productId}/similarids",
         produces = { "application/json" }
     )
     default ResponseEntity<Set<String>> getProductSimilar(

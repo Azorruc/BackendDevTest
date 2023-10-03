@@ -27,6 +27,11 @@ public class ProductApiController implements ProductApi {
 	@Autowired
 	private ProductDetailResponseMapper productDetailResponseMapper;
 
+	public ProductApiController(ProductGetSimilarUseCase useCase, ProductDetailResponseMapper mapper) {
+		this.useCase = useCase;
+		this.productDetailResponseMapper = mapper;
+	}
+
 	@Override
 	public ResponseEntity<Set<ProductDetailResponse>> getProductSimilar(String productId) {
 		

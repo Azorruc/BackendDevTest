@@ -2,3 +2,5 @@
 /Users/josemariaazorin/git/backendDevTest/src/test/java/com/inditex/builder/Builder.java
 /Users/josemariaazorin/git/backendDevTest/src/test/java/com/inditex/applicaation/controller/ProductApiControllerTest.java
 /Users/josemariaazorin/git/backendDevTest/src/test/java/com/inditex/builder/ProductDetailBuilder.java
+/Users/josemariaazorin/git/backendDevTest/src/test/java/com/inditex/applicaation/domain/use_case/get_similar/ProductGetSimilarUseCaseTest.java
+/Users/josemariaazorin/git/backendDevTest/src/test/java/com/inditex/builder/ProductDetailResponseBuilder.java

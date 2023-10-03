@@ -1,4 +1,7 @@
-com/inditex/applicaation/controller/ProductMockApiControllerTest.class
 com/inditex/builder/Builder.class
+com/inditex/builder/ProductDetailResponseBuilder.class
 com/inditex/builder/ProductDetailBuilder.class
 com/inditex/applicaation/controller/ProductApiControllerTest.class
+com/inditex/applicaation/domain/use_case/get_similar/ProductGetSimilarUseCaseTest.class
+com/inditex/applicaation/controller/ProductMockApiControllerTest.class
+com/inditex/applicaation/domain/use_case/get_similar/ProductGetSimilarUseCaseTest$1.class

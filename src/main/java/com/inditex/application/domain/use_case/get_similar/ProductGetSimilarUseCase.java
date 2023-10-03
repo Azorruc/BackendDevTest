@@ -20,8 +20,12 @@ public class ProductGetSimilarUseCase {
     @Value("${openapi.similarProducts.mock-path}")
     private String path;
 	
-    private final RestTemplate restTemplate = new RestTemplate();
+    private RestTemplate restTemplate = new RestTemplate();
     
+	public ProductGetSimilarUseCase(RestTemplate restTemplate) {
+		this.restTemplate = restTemplate;
+	}
+
 	public Set<ProductDetail> getSimilar(String productId){
 		ResponseEntity<Set<String>> ids = restTemplate.exchange(
                 path.concat(productId).concat(urlGetSimilar),
