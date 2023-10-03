@@ -1,5 +1,11 @@
 /Users/josemariaazorin/git/backendDevTest/src/main/java/com/inditex/application/contract/ApiUtil.java
+/Users/josemariaazorin/git/backendDevTest/src/main/java/com/inditex/application/domain/use_case/get_similar/ProductGetSimilarUseCase.java
+/Users/josemariaazorin/git/backendDevTest/src/main/java/com/inditex/application/controller/response/ProductDetailResponseMapper.java
+/Users/josemariaazorin/git/backendDevTest/src/main/java/com/inditex/application/domain/ProductMockApiDelegate.java
+/Users/josemariaazorin/git/backendDevTest/src/main/java/com/inditex/application/controller/response/ProductDetailResponse.java
+/Users/josemariaazorin/git/backendDevTest/src/main/java/com/inditex/application/controller/ProductApiController.java
 /Users/josemariaazorin/git/backendDevTest/src/main/java/com/inditex/application/controller/ProductMockApi.java
 /Users/josemariaazorin/git/backendDevTest/src/main/java/com/inditex/domain/model/product/ProductDetail.java
-/Users/josemariaazorin/git/backendDevTest/src/main/java/com/inditex/application/controller/ProductMockApiDelegate.java
+/Users/josemariaazorin/git/backendDevTest/src/main/java/com/inditex/application/contract/Mapper.java
+/Users/josemariaazorin/git/backendDevTest/src/main/java/com/inditex/application/controller/ProductApi.java
 /Users/josemariaazorin/git/backendDevTest/src/main/java/com/inditex/application/controller/ProductMockApiController.java

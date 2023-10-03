@@ -12,7 +12,7 @@ import javax.annotation.Generated;
 
 @Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-09-27T18:29:06.333941+02:00[Europe/Madrid]")
 @Controller
-@RequestMapping("${openapi.similarProducts.base-path:}")
+@RequestMapping("${openapi.similarProducts.mock-path}")
 public class ProductMockApiController implements ProductMockApi {
 
     private final ProductMockApiDelegate delegate;

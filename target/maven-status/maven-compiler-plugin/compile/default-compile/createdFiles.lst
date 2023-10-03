@@ -1,0 +1,15 @@
+com/inditex/application/domain/use_case/get_similar/ProductGetSimilarUseCase$2.class
+com/inditex/application/controller/ProductApi.class
+com/inditex/application/contract/Mapper.class
+com/inditex/application/controller/response/ProductDetailResponseMapper.class
+com/inditex/application/controller/ProductMockApi$1.class
+com/inditex/application/domain/use_case/get_similar/ProductGetSimilarUseCase.class
+com/inditex/application/controller/ProductApiController.class
+com/inditex/application/domain/ProductMockApiDelegate.class
+com/inditex/application/controller/ProductMockApiController.class
+com/inditex/application/controller/ProductMockApiController$1.class
+com/inditex/application/controller/ProductMockApi.class
+com/inditex/domain/model/product/ProductDetail.class
+com/inditex/application/contract/ApiUtil.class
+com/inditex/application/controller/response/ProductDetailResponse.class
+com/inditex/application/domain/use_case/get_similar/ProductGetSimilarUseCase$1.class

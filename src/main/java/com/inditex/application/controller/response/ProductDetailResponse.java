@@ -41,7 +41,7 @@ public class ProductDetailResponse {
   @Schema(name = "availability", requiredMode = Schema.RequiredMode.REQUIRED)
   private Boolean availability;
 
-  @Override
+@Override
   public boolean equals(Object o) {
     if (this == o) {
       return true;

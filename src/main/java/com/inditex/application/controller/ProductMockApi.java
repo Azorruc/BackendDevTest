@@ -78,7 +78,7 @@ public interface ProductMockApi {
     default ResponseEntity<ProductDetail> getProductDetail(
             @Parameter(name = "productId", description = "", required = true, in = ParameterIn.PATH) @PathVariable("productId") String productId
     		){
-    	return null;
+    	return getDelegate().getProductDetail(productId);
     }
     
 

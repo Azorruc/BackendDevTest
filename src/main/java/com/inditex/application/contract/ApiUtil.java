@@ -18,4 +18,8 @@ public class ApiUtil {
     public static ResponseEntity<Set<String>> getSimilarProductsMockResponse() {
 		return ResponseEntity.ok(mockedSimilarProductsIds);
     }
+    
+    public static ResponseEntity<ProductDetail> getProductDetailMockResponse(){
+    	return ResponseEntity.ok(mockedProductDetail);
+    }
 }

@@ -39,7 +39,7 @@ public interface ProductMockApiDelegate {
     }
     
     default ResponseEntity<ProductDetail> getProductDetail(String productId) {
-    	return null;
+    	return ApiUtil.getProductDetailMockResponse();
     }
 
 }
